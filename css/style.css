@@ -33,8 +33,6 @@ header{
     justify-content: flex-start;
 }
 
-
-
 .logo{
     width: calc(100% / 3);
     display: flex;
@@ -97,6 +95,62 @@ span:last-child{
     color: black;
 }
 
+.models{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    background-color: white;
+    width: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount{
+    position: absolute;
+    bottom: 7%;
+    left: 0%;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ecology{
+    position: absolute;
+    bottom: 7%;
+    left: 15%;
+    background-color: green;
+    color: white;
+    width: auto;
+    height: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square3-main2 .models .ecology{
+    position: absolute;
+    bottom: 7%;
+    left: 0%;
+    background-color: green;
+    width: auto;
+    height: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* footer */
 
