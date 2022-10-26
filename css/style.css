@@ -17,7 +17,7 @@ header{
     height: 75px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,8 +85,24 @@ header{
     padding: 0px 20px;
 }
 
+.models{
+    position: relative;
+    width: 100%;
+}
+
 .models img{
     width: 100%;
+}
+
+.models:hover .overlay{
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
 }
 
 .infos{
@@ -102,10 +118,6 @@ span:last-child{
     color: black;
 }
 
-.models{
-    position: relative;
-}
-
 .heart{
     position: absolute;
     top: 7%;
@@ -116,6 +128,10 @@ span:last-child{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .discount{
@@ -135,7 +151,7 @@ span:last-child{
 .ecology{
     position: absolute;
     bottom: 7%;
-    left: 15%;
+    left: 18%;
     background-color: green;
     color: white;
     width: auto;
