@@ -3,3 +3,53 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+header{
+    background-color: orange;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gender a{
+    padding: 0px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: auto;
+    height: 34px;
+}
+
+.icons{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons a{
+    padding: 0px 10px; 
+    color: white;
+    height: auto;
+}
