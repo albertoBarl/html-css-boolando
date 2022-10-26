@@ -14,7 +14,10 @@ a{
 /* header */
 header{
     background-color: orange;
-    height: 100px;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +73,10 @@ header{
     align-items: center;
     margin-bottom: 75px;
     margin-top: 25px;
+}
+
+.row-main-1{
+    padding-top: 75px;
 }
 
 .square{
