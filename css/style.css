@@ -58,10 +58,76 @@ header{
 
 /* main */
 .container{
+    height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background-color: brown;
 }
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 0px 150px;
+}
+
+.square{
+    height: 700px;
+    width: calc(100% / 3);
+    margin: 0px 25px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.square1-main1{
+    background-image: url(../img/1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.square2-main1{
+    background-image: url(../img/2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.square3-main1{
+    background-image: url(../img/3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.square1-main2{
+    background-image: url(../img/4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.square2-main2{
+    background-image: url(../img/5.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.square3-main2{
+    background-image: url(../img/6.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+
 
 /* footer */
 
